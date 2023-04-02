@@ -338,10 +338,25 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="container3">
+                        <form class="form-footer">
+                            <p class="subscibe-title">Subscribe</p>
+                            <div class="form-div">
+                                <label class="label-sub">
+                                    <input class="input-text" type="email" name="email" id="email" autocomplete="on" placeholder="E-mail" />
+                                </label>
+                                <button type="submit" class="btn-footer">
+                                    <b class="btn-submit">Subscribe</b>
+                                    <svg class="button-item" width="24" height="24">
+                                        <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                
             </footer>
-            <div class="backdrop" data-modal>
+            <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button type="button" class="modal-close" data-modal-close>
                         <svg width="8" height="8" class="modal-close-icon">
@@ -392,7 +407,8 @@
                                 name="user-privacy"
                                 value="true"
                                 />
-                                <label for="privacy" class="check-text">I accept the terms and conditions of the <a href="" class="Check-text-link">Privacy Policy</a></label>
+                                <label for="privacy" class="check-text">I accept the terms and conditions of the <a href="" class="check-text-link">Privacy Policy</a></label>
+                                <button class="modal-btn-send" type="submit">Send</button>
                             </div>
                         </div>
                     </form>
